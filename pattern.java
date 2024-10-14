@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class pattern {
     public static void main(String args[]){
         //-------------->Nested loops<----------
@@ -38,16 +41,28 @@ public class pattern {
         //     System.out.println();
         // }
         
-        //----------> half inverted 180 degree pyramid<---
-        for(int i=1; i<=4; i++){
-            // inner loop -> Space print
-            for (int j=1; j<=4-i; j++ ){
-                System.out.print(" ");
+        //---------->
+        // for(int i=1; i<=4; i++){
+        //     // inner loop -> Space print
+        //     for (int j=1; j<=4-i; j++ ){
+        //         System.out.print(" ");
                 
-            }
-            // inner loop -> star print
-            for(int j=1; j<=i; j++ ){
-                System.out.print("*");
+        //     }
+        //     // inner loop -> star print
+        //     for(int j=1; j<=i; j++ ){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        //--->print number in form of pyramid
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        
+        for(int i=1; i<=n ; i++){
+            for(int j=1; j<=i ; j++){
+                System.out.print(j);
             }
             System.out.println();
         }
