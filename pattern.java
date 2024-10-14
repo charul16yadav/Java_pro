@@ -38,7 +38,7 @@ public class pattern {
         //     System.out.println();
         // }
         
-        //---------->
+        //----------> half inverted 180 degree pyramid<---
         for(int i=1; i<=4; i++){
             // inner loop -> Space print
             for (int j=1; j<=4-i; j++ ){
