@@ -54,7 +54,17 @@ public class pattern {
         //     }
         //     System.out.println();
         // }
-
+        //--->print number in form of pyramid
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        
+        for(int i=1; i<=n ; i++){
+            for(int j=1; j<=i ; j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
         
 
     }
