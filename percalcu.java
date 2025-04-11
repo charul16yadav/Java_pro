@@ -19,7 +19,7 @@ public class percalcu {
         float percentage = ((sub1+sub2+sub3+sub4+sub5)/500.0f)*100;
         System.out.println("percentage : ");
         System.out.println(percentage);
-        //percentage calculator  in
+        //percentage calculator  in  red
 
     }
     
